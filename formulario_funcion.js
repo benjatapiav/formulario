@@ -6,6 +6,8 @@ function mostrar(){
     var apmaterno = document.querySelector("#apmaterno").value;
     var rut = document.querySelector("#rut").value;
     var edad = document.querySelector("#edad").value;
+    var generom = document.querySelector("#masculino").value;
+    var generof = document.querySelector("#femenino").value;
     var celular = document.querySelector("#celular").value;
 
     document.querySelector("#nom").innerHTML = "Nombre: "+nombre;
@@ -14,5 +16,6 @@ function mostrar(){
     document.querySelector("#run").innerHTML = "Rut: "+rut;
     document.querySelector("#cel").innerHTML = "Celular: "+celular;
     document.querySelector("#año").innerHTML = "Edad: "+edad;
+    document.querySelector("#gen").innerHTML = "Genero: "+generof;
 
 }

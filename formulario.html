@@ -16,38 +16,39 @@
 
                     <div class="col-2">
                     <label for="NOMBRE">NOMBRE</label>
-                    <input type="text" id="nombre" placeholder="Gumercindo" ><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Gumercindo" required><br>
                     </div>
 
                     <div class="col-2">
                     <label for="APPATERNO">AP. PATERNO</label>
-                    <input type="text" id="appaterno" placeholder="Rosales"><br>
+                    <input type="text" id="appaterno" name="appaterno" placeholder="Rosales" required><br>
                     </div>
 
                     <div class="col-2">
                     <label for="APMATERNO">AP. MATERNO</label>
-                    <input type="text" id="apmaterno" placeholder="Asturias"><br>
+                    <input type="text" id="apmaterno" name="apmaterno" placeholder="Asturias" required><br>
                     </div>
 
                     <div class="col-2">
                     <label for="RUT">RUT</label>
-                    <input type="text" id="rut" placeholder="12345678"><br>
+                    <input type="text" id="rut" name="rut" placeholder="12345678" required><br>
                     </div>
 
                     <div class="col-2">
                     <label for="EDAD">EDAD</label>
-                    <input type="text" id="edad" placeholder="78"><br>
+                    <input type="text" id="edad" name="edad" placeholder="78" required><br>
                     </div>
 
                     <div class="col-2">
-                    <p>Genero</p>
-                    <input type="radio" id="m">MASCULINO 
-                    <input type="radio" id="f">FEMENINO<br>
+                    <p>Genero:
+                    <input type="radio" id="masculino" name="hm" value="h"> Hombre
+                    <input type="radio" id="femenino" name="hm" value="m"> mujer
+                    </p>
                     </div>
                 
                     <div class="col-2">
                     <label for="CELULAR">CELULAR</label>
-                    <input type="text" id="celular" placeholder="964811234">
+                    <input type="text" id="celular" name="celular" placeholder="964811234" required>
                     </div>
 
                     <div class="col-2">
@@ -66,6 +67,7 @@
                 <p id="apm">Apellido materno: </p><br>
                 <p id="run">Rut: </p><br>
                 <p id="año">Edad: </p><br>
+                <p id="gen">Genero: </p><br>
                 <p id="cel">Celular: </p><br>
             </div>
         </div>
