@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario_estilo.css">
+    <script src="formulario_funcion.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- COLUMNA FORMULARIO -->
+            <div class="col-6" id="columna1">
+                <form>
+
+                    <div class="col-2">
+                    <label for="NOMBRE">NOMBRE</label>
+                    <input type="text" id="nombre" placeholder="Gumercindo" ><br>
+                    </div>
+
+                    <div class="col-2">
+                    <label for="APPATERNO">AP. PATERNO</label>
+                    <input type="text" id="appaterno" placeholder="Rosales"><br>
+                    </div>
+
+                    <div class="col-2">
+                    <label for="APMATERNO">AP. MATERNO</label>
+                    <input type="text" id="apmaterno" placeholder="Asturias"><br>
+                    </div>
+
+                    <div class="col-2">
+                    <label for="RUT">RUT</label>
+                    <input type="text" id="rut" placeholder="12345678"><br>
+                    </div>
+
+                    <div class="col-2">
+                    <label for="EDAD">EDAD</label>
+                    <input type="text" id="edad" placeholder="78"><br>
+                    </div>
+
+                    <div class="col-2">
+                    <p>Genero</p>
+                    <input type="radio" id="m">MASCULINO 
+                    <input type="radio" id="f">FEMENINO<br>
+                    </div>
+                
+                    <div class="col-2">
+                    <label for="CELULAR">CELULAR</label>
+                    <input type="text" id="celular" placeholder="964811234">
+                    </div>
+
+                    <div class="col-2">
+                        <button type="button" id="boton" onclick="mostrar();" >ENVIAR</button>
+                    </div>
+
+                </form>
+                <!-- COLUMNA RESPUESTA -->
+            </div>
+                
+            <div class="col-6" id="columna2">
+                <h1>INFORMACION DE CLIENTE</h1>
+                <hr>
+                <p id="nom">Nombre: </p><br>
+                <p id="app">Apellido Paterno: </p><br>
+                <p id="apm">Apellido materno: </p><br>
+                <p id="run">Rut: </p><br>
+                <p id="año">Edad: </p><br>
+                <p id="cel">Celular: </p><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
