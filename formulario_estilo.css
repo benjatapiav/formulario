@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+
+
+.container{
+    background-color: rgba(0, 128, 0, 0.096);
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+#columna1{
+    background-color: red;
+    padding: 30px;
+    min-width: 50%;
+
+}
+#columna2{
+    background-color: yellow;
+    padding: 30px;
+    min-width: 50%;
+}
+
+.col-2{
+    margin-bottom: 20px;
+}
